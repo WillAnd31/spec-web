@@ -1,0 +1,15 @@
+{
+  "hello-world": {
+    "identifier": "1",
+    "author": "Will Anderson",
+    "date": "2019-04-20T06:00:00.000Z",
+    "title": "Hello World!",
+    "name": "hello-world",
+    "desc": "When I'm trying to solve a hard problem I usually have like 50 tabs open with the specs of whatever technology I'm working with. That's why I'm calling this respository of my thoughts, The Spec.",
+    "tags": [
+      "Vue",
+      "WebDevelopment"
+    ],
+    "pathFromSrc": "./components/2019-04-20-Hello-World.vue"
+  }
+}

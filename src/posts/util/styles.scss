@@ -1,0 +1,24 @@
+.post-view {
+
+	padding: 3em;
+
+	pre {
+		.hljs {
+			// Vuetify adds content to code to make inline code better, this removes that for blocks
+			&:before, &:after {
+				content: none !important;
+			}
+		}
+	}
+
+	h1, h2, h3, h4, h5 {
+		margin-bottom: 0.2em;
+	}
+
+	.signature {
+		position: absolute;
+		top: 1em;
+		right: 1em;
+	}
+
+}

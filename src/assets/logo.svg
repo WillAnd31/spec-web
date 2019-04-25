@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- Created with Vectornator for iOS (http://vectornator.io/) --><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" viewBox="0 0 228 228">
+<metadata>
+<vectornator:setting key="DisplayWhiteBackground" value="0"/>
+<vectornator:setting key="RulersVisible" value="1"/>
+<vectornator:setting key="SnapToEdges" value="1"/>
+<vectornator:setting key="Units" value="Pixels"/>
+<vectornator:setting key="DynamicGuides" value="0"/>
+<vectornator:setting key="SnapToPoints" value="0"/>
+<vectornator:setting key="CMYKEnabledKey" value="0"/>
+<vectornator:setting key="SnapToGrid" value="0"/>
+<vectornator:setting key="ShowGrid" value="1"/>
+<vectornator:setting key="GridSpacing" value="36"/>
+</metadata>
+<defs/>
+<g id="Layer 1" vectornator:layerName="Layer 1">
+<g opacity="1" vectornator:blendMode="Lighten">
+<path vectornator:shadowColor="#000000" vectornator:shadowOpacity="0.654705" vectornator:shadowRadius="10" d="M154.273+27.9247L154.271+14.6223L182.353+14.6155L182.36+73.6369L154.279+73.6436L154.277+60.2121C142.371+45.0614+126.091+37.4885+105.436+37.4935C92.82+37.4966+83.1544+39.6514+76.4398+43.958C69.7251+48.2646+66.3683+54.4646+66.3693+62.5579C66.3703+70.3069+69.5505+76.204+75.9101+80.2491C82.2697+84.2943+92.0122+87.7359+105.138+90.5741L132.152+96.6376C149.347+100.508+162.549+105.628+171.758+111.997C180.967+118.366+186.971+125.123+189.77+132.269C192.568+139.415+193.968+147.378+193.97+156.161C193.972+173.811+187.462+187.804+174.44+198.139C161.418+208.474+143.969+213.644+122.094+213.65C101.236+213.655+82.2595+207.202+65.1647+194.291L65.1667+210.435L36.4745+210.441L36.4657+139.538L65.1579+139.531L65.16+156.708C78.8983+178.058+96.8068+188.73+118.886+188.724C131.807+188.721+141.829+185.899+148.95+180.258C156.072+174.617+159.632+166.673+159.631+156.427C159.629+142.479+148.029+132.796+124.83+127.377L96.137+120.539C75.4821+115.55+60.2194+108.795+50.3491+100.273C40.4787+91.752+35.5427+80.5172+35.541+66.569C35.5388+49.4352+41.5147+36.1528+53.4686+26.722C65.4225+17.2913+81.9301+12.5733+102.991+12.5682C121.306+12.5638+138.399+17.6826+154.273+27.9247Z" vectornator:shadowOffset="10" fill="#2d9143" opacity="1" vectornator:shadowAngle="2.18274"/>
+</g>
+</g>
+</svg>
