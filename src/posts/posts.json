@@ -10,6 +10,8 @@
       "Vue",
       "WebDevelopment"
     ],
-    "pathFromSrc": "./components/2019-04-20-Hello-World.vue"
+    "routePath": "/hello-world",
+    "pathFromSrc": "./components/2019-04-20-Hello-World.vue",
+    "image": "https://d2hpjf1y64saff.cloudfront.net/images/puzzle_life-web.jpg"
   }
 }

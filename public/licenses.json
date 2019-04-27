@@ -551,6 +551,19 @@
         "licenseUrl": "https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.stat",
         "parents": "spec-web"
     },
+    "@prerenderer/prerenderer@0.7.2": {
+        "licenses": "MIT",
+        "repository": "https://github.com/Tribex/prerenderer",
+        "licenseFile": "node_modules/@prerenderer/prerenderer/LICENSE.md",
+        "licenseUrl": "https://github.com/Tribex/prerenderer/raw/master/LICENSE.md",
+        "parents": "spec-web"
+    },
+    "@prerenderer/renderer-puppeteer@0.2.0": {
+        "licenses": "MIT",
+        "repository": "https://github.com/Tribex/prerenderer",
+        "licenseUrl": "https://github.com/Tribex/prerenderer",
+        "parents": "spec-web"
+    },
     "@soda/friendly-errors-webpack-plugin@1.7.1": {
         "licenses": "MIT",
         "repository": "https://github.com/sodatea/friendly-errors-webpack-plugin",
@@ -891,6 +904,12 @@
         "licenseUrl": "https://github.com/node-modules/address/raw/master/LICENSE.txt",
         "parents": "spec-web"
     },
+    "agent-base@4.2.1": {
+        "licenses": "MIT",
+        "repository": "https://github.com/TooTallNate/node-agent-base",
+        "licenseUrl": "https://github.com/TooTallNate/node-agent-base",
+        "parents": "spec-web"
+    },
     "ajv-errors@1.0.1": {
         "licenses": "MIT",
         "repository": "https://github.com/epoberezkin/ajv-errors",
@@ -949,9 +968,9 @@
     "ansi-regex@2.1.1": {
         "licenses": "MIT",
         "repository": "https://github.com/chalk/ansi-regex",
-        "licenseFile": "node_modules/showdown/node_modules/wrap-ansi/node_modules/ansi-regex/license",
+        "licenseFile": "node_modules/has-ansi/node_modules/ansi-regex/license",
         "licenseUrl": "https://github.com/chalk/ansi-regex/raw/master/license",
-        "parents": "wrap-ansi:showdown:spec-web"
+        "parents": "has-ansi:spec-web"
     },
     "ansi-regex@3.0.0": {
         "licenses": "MIT",
@@ -2199,16 +2218,16 @@
     "debug@2.6.9": {
         "licenses": "MIT",
         "repository": "https://github.com/visionmedia/debug",
-        "licenseFile": "node_modules/snapdragon/node_modules/debug/LICENSE",
+        "licenseFile": "node_modules/extract-zip/node_modules/debug/LICENSE",
         "licenseUrl": "https://github.com/visionmedia/debug/raw/master/LICENSE",
-        "parents": "snapdragon:spec-web"
+        "parents": "extract-zip:spec-web"
     },
     "debug@3.2.6": {
         "licenses": "MIT",
         "repository": "https://github.com/visionmedia/debug",
-        "licenseFile": "node_modules/follow-redirects/node_modules/debug/LICENSE",
+        "licenseFile": "node_modules/https-proxy-agent/node_modules/debug/LICENSE",
         "licenseUrl": "https://github.com/visionmedia/debug/raw/master/LICENSE",
-        "parents": "follow-redirects:spec-web"
+        "parents": "https-proxy-agent:spec-web"
     },
     "debug@4.1.1": {
         "licenses": "MIT",
@@ -2604,6 +2623,19 @@
         "licenseUrl": "https://github.com/ljharb/es-to-primitive/raw/master/LICENSE",
         "parents": "spec-web"
     },
+    "es6-promise@4.2.6": {
+        "licenses": "MIT",
+        "repository": "https://github.com/stefanpenner/es6-promise",
+        "licenseFile": "node_modules/es6-promise/LICENSE",
+        "licenseUrl": "https://github.com/stefanpenner/es6-promise/raw/master/LICENSE",
+        "parents": "spec-web"
+    },
+    "es6-promisify@5.0.0": {
+        "licenses": "MIT",
+        "repository": "https://github.com/digitaldesignlabs/es6-promisify",
+        "licenseUrl": "https://github.com/digitaldesignlabs/es6-promisify",
+        "parents": "spec-web"
+    },
     "escape-html@1.0.3": {
         "licenses": "MIT",
         "repository": "https://github.com/component/escape-html",
@@ -2757,6 +2789,13 @@
         "licenseUrl": "https://github.com/micromatch/extglob/raw/master/LICENSE",
         "parents": "spec-web"
     },
+    "extract-zip@1.6.7": {
+        "licenses": "BSD-2-Clause",
+        "repository": "https://github.com/maxogden/extract-zip",
+        "licenseFile": "node_modules/extract-zip/LICENSE",
+        "licenseUrl": "https://github.com/maxogden/extract-zip/raw/master/LICENSE",
+        "parents": "spec-web"
+    },
     "extsprintf@1.3.0": {
         "licenses": "MIT",
         "repository": "https://github.com/davepacheco/node-extsprintf",
@@ -2803,6 +2842,13 @@
         "repository": "https://github.com/faye/faye-websocket-node",
         "licenseUrl": "https://github.com/faye/faye-websocket-node",
         "parents": "sockjs-client:spec-web"
+    },
+    "fd-slicer@1.0.1": {
+        "licenses": "MIT",
+        "repository": "https://github.com/andrewrk/node-fd-slicer",
+        "licenseFile": "node_modules/fd-slicer/LICENSE",
+        "licenseUrl": "https://github.com/andrewrk/node-fd-slicer/raw/master/LICENSE",
+        "parents": "spec-web"
     },
     "figgy-pudding@3.5.1": {
         "licenses": "ISC",
@@ -3412,6 +3458,13 @@
         "licenseUrl": "https://github.com/creationix/http-parser-js/raw/master/LICENSE.md",
         "parents": "spec-web"
     },
+    "http-proxy-middleware@0.18.0": {
+        "licenses": "MIT",
+        "repository": "https://github.com/chimurai/http-proxy-middleware",
+        "licenseFile": "node_modules/@prerenderer/prerenderer/node_modules/http-proxy-middleware/LICENSE",
+        "licenseUrl": "https://github.com/chimurai/http-proxy-middleware/raw/master/LICENSE",
+        "parents": "@prerenderer/prerenderer:spec-web"
+    },
     "http-proxy-middleware@0.19.1": {
         "licenses": "MIT",
         "repository": "https://github.com/chimurai/http-proxy-middleware",
@@ -3438,6 +3491,12 @@
         "repository": "https://github.com/substack/https-browserify",
         "licenseFile": "node_modules/https-browserify/LICENSE",
         "licenseUrl": "https://github.com/substack/https-browserify/raw/master/LICENSE",
+        "parents": "spec-web"
+    },
+    "https-proxy-agent@2.2.1": {
+        "licenses": "MIT",
+        "repository": "https://github.com/TooTallNate/node-https-proxy-agent",
+        "licenseUrl": "https://github.com/TooTallNate/node-https-proxy-agent",
         "parents": "spec-web"
     },
     "iconv-lite@0.4.23": {
@@ -3778,9 +3837,9 @@
     "is-fullwidth-code-point@1.0.0": {
         "licenses": "MIT",
         "repository": "https://github.com/sindresorhus/is-fullwidth-code-point",
-        "licenseFile": "node_modules/showdown/node_modules/is-fullwidth-code-point/license",
+        "licenseFile": "node_modules/gauge/node_modules/is-fullwidth-code-point/license",
         "licenseUrl": "https://github.com/sindresorhus/is-fullwidth-code-point/raw/master/license",
-        "parents": "showdown:spec-web"
+        "parents": "gauge:spec-web"
     },
     "is-fullwidth-code-point@2.0.0": {
         "licenses": "MIT",
@@ -4666,9 +4725,9 @@
     "ms@2.0.0": {
         "licenses": "MIT",
         "repository": "https://github.com/zeit/ms",
-        "licenseFile": "node_modules/snapdragon/node_modules/ms/license.md",
+        "licenseFile": "node_modules/extract-zip/node_modules/ms/license.md",
         "licenseUrl": "https://github.com/zeit/ms/raw/master/license.md",
-        "parents": "snapdragon:spec-web"
+        "parents": "extract-zip:spec-web"
     },
     "ms@2.1.1": {
         "licenses": "MIT",
@@ -5330,6 +5389,13 @@
         "licenseUrl": "https://github.com/crypto-browserify/pbkdf2/raw/master/LICENSE",
         "parents": "spec-web"
     },
+    "pend@1.2.0": {
+        "licenses": "MIT",
+        "repository": "https://github.com/andrewrk/node-pend",
+        "licenseFile": "node_modules/pend/LICENSE",
+        "licenseUrl": "https://github.com/andrewrk/node-pend/raw/master/LICENSE",
+        "parents": "spec-web"
+    },
     "performance-now@2.1.0": {
         "licenses": "MIT",
         "repository": "https://github.com/braveg1rl/performance-now",
@@ -5671,6 +5737,13 @@
         "licenseUrl": "https://github.com/sindresorhus/prepend-http/raw/master/license",
         "parents": "spec-web"
     },
+    "prerender-spa-plugin@3.4.0": {
+        "licenses": "MIT",
+        "repository": "https://github.com/chrisvfritz/prerender-spa-plugin",
+        "licenseFile": "node_modules/prerender-spa-plugin/LICENSE.md",
+        "licenseUrl": "https://github.com/chrisvfritz/prerender-spa-plugin/raw/master/LICENSE.md",
+        "parents": "spec-web"
+    },
     "prettier@1.16.3": {
         "licenses": "MIT",
         "repository": "https://github.com/prettier/prettier",
@@ -5706,6 +5779,13 @@
         "licenseUrl": "https://github.com/shtylman/node-process/raw/master/LICENSE",
         "parents": "spec-web"
     },
+    "progress@2.0.3": {
+        "licenses": "MIT",
+        "repository": "https://github.com/visionmedia/node-progress",
+        "licenseFile": "node_modules/progress/LICENSE",
+        "licenseUrl": "https://github.com/visionmedia/node-progress/raw/master/LICENSE",
+        "parents": "spec-web"
+    },
     "promise-inflight@1.0.1": {
         "licenses": "ISC",
         "repository": "https://github.com/iarna/promise-inflight",
@@ -5713,11 +5793,23 @@
         "licenseUrl": "https://github.com/iarna/promise-inflight/raw/master/LICENSE",
         "parents": "spec-web"
     },
+    "promise-limit@2.7.0": {
+        "licenses": "ISC",
+        "repository": "https://github.com/featurist/promise-limit",
+        "licenseUrl": "https://github.com/featurist/promise-limit",
+        "parents": "spec-web"
+    },
     "proxy-addr@2.0.5": {
         "licenses": "MIT",
         "repository": "https://github.com/jshttp/proxy-addr",
         "licenseFile": "node_modules/proxy-addr/LICENSE",
         "licenseUrl": "https://github.com/jshttp/proxy-addr/raw/master/LICENSE",
+        "parents": "spec-web"
+    },
+    "proxy-from-env@1.0.0": {
+        "licenses": "MIT",
+        "repository": "https://github.com/Rob--W/proxy-from-env",
+        "licenseUrl": "https://github.com/Rob--W/proxy-from-env",
         "parents": "spec-web"
     },
     "prr@1.0.1": {
@@ -5788,6 +5880,13 @@
         "repository": "https://github.com/bestiejs/punycode.js",
         "licenseFile": "node_modules/punycode/LICENSE-MIT.txt",
         "licenseUrl": "https://github.com/bestiejs/punycode.js/raw/master/LICENSE-MIT.txt",
+        "parents": "spec-web"
+    },
+    "puppeteer@1.14.0": {
+        "licenses": "Apache-2.0",
+        "repository": "https://github.com/GoogleChrome/puppeteer",
+        "licenseFile": "node_modules/puppeteer/LICENSE",
+        "licenseUrl": "https://github.com/GoogleChrome/puppeteer/raw/master/LICENSE",
         "parents": "spec-web"
     },
     "q@1.5.1": {
@@ -6698,9 +6797,9 @@
     "string-width@1.0.2": {
         "licenses": "MIT",
         "repository": "https://github.com/sindresorhus/string-width",
-        "licenseFile": "node_modules/showdown/node_modules/wrap-ansi/node_modules/string-width/license",
+        "licenseFile": "node_modules/gauge/node_modules/string-width/license",
         "licenseUrl": "https://github.com/sindresorhus/string-width/raw/master/license",
-        "parents": "wrap-ansi:showdown:spec-web"
+        "parents": "gauge:spec-web"
     },
     "string-width@2.1.1": {
         "licenses": "MIT",
@@ -6746,9 +6845,9 @@
     "strip-ansi@3.0.1": {
         "licenses": "MIT",
         "repository": "https://github.com/chalk/strip-ansi",
-        "licenseFile": "node_modules/showdown/node_modules/wrap-ansi/node_modules/strip-ansi/license",
+        "licenseFile": "node_modules/babel-code-frame/node_modules/strip-ansi/license",
         "licenseUrl": "https://github.com/chalk/strip-ansi/raw/master/license",
-        "parents": "wrap-ansi:showdown:spec-web"
+        "parents": "babel-code-frame:spec-web"
     },
     "strip-ansi@4.0.0": {
         "licenses": "MIT",
@@ -7677,6 +7776,13 @@
         "licenseFile": "node_modules/sass-graph/node_modules/yargs/LICENSE",
         "licenseUrl": "https://github.com/yargs/yargs/raw/master/LICENSE",
         "parents": "sass-graph:spec-web"
+    },
+    "yauzl@2.4.1": {
+        "licenses": "MIT",
+        "repository": "https://github.com/thejoshwolfe/yauzl",
+        "licenseFile": "node_modules/yauzl/LICENSE",
+        "licenseUrl": "https://github.com/thejoshwolfe/yauzl/raw/master/LICENSE",
+        "parents": "spec-web"
     },
     "yorkie@2.0.0": {
         "licenses": "MIT",

@@ -32,7 +32,7 @@ import { RouteConfig } from 'vue-router';
 export const PostRoutes: RouteConfig[] = [
 ${_.map(posts, post => `	{
 		name: '${post.name}',
-		path: '/${post.name}',
+		path: '${post.routePath}',
 		component: () => import(/* webpackChunkName: "${post.name}" */ '${post.pathFromSrc}')
 	}`).join(',\n')}
 ];
@@ -85,6 +85,7 @@ const convertMarkdown = (fileName, md, cb) => {
 		converter.dependencyMeta);
 	if (!_.every(REQUIRED_META, m => _.has(meta, m)))
 		return cb(new Error('Missing meta'));
+	if (meta.draft) return;
 
 	let filePath = path.resolve(__dirname, '..', 'components', fileName + '.vue');
 	let postName = meta.name || _.kebabCase(meta.title);
@@ -97,7 +98,9 @@ const convertMarkdown = (fileName, md, cb) => {
 		desc: meta.desc || converter.textMeta.desc,
 		componentOnly: meta.componentOnly || false,
 		tags: meta.tags ? meta.tags.split(/,\s?/) : [],
-		pathFromSrc: './' + path.relative(srcPath, filePath)
+		routePath: `/${postName}`,
+		pathFromSrc: './' + path.relative(srcPath, filePath),
+		image: meta.image
 	};
 
 	saveUsingTemplate(filePath, html, posts[postName], meta, cb);

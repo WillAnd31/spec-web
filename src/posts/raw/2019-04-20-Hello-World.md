@@ -5,6 +5,7 @@ date: April 20 2019
 title: Hello World!
 name: hello-world
 tags: Vue, WebDevelopment
+image: https://d2hpjf1y64saff.cloudfront.net/images/puzzle_life-web.jpg
 ---
 # :wave: Hello World!
 
